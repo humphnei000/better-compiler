@@ -10,6 +10,9 @@ class Stream:
 class ExpStatement:
     def __init__(self,exp):
         self.exp = exp
+    @classmethod
+    def fromStream(strm):
+        pass
 def readStatement(strm):
     pass
 
